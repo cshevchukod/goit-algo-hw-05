@@ -13,11 +13,9 @@ def binary_search(arr, x):
         iterations += 1
         mid = (high + low) // 2
 
-        # якщо x більше за значення посередині списку — шукаємо праворуч
         if arr[mid] < x:
             low = mid + 1
         else:
-            # arr[mid] >= x — це кандидат на upper_bound, пробуємо знайти ще менший ліворуч
             upper_bound = arr[mid]
             high = mid - 1
 
