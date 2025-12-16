@@ -1,5 +1,5 @@
 # task1_hashtable.py
-# ДЗ4 — Завдання 1: HashTable + метод delete (максимально як у конспекті)
+# ДЗ4 — Завдання 1: HashTable + метод delete
 
 class HashTable:
     def __init__(self, size):
